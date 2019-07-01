@@ -10,14 +10,12 @@ nav, footer {
     position: fixed;
     width: 100%;
     background-color: #8978fa;
-    height: 50px;
+    height: 60px;
 }
 
 nav {
-
     top: 0px;
     left: 0px;
-
 
   }
 
@@ -29,7 +27,6 @@ nav {
 section {
       height: 100px;
       width: 100%;
-      padding: 2%;
   }
 
 main {
@@ -38,6 +35,9 @@ main {
 
 h1 {
     padding-top: 20px;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'Indie Flower', cursive; 
 }
 
 p {
@@ -72,4 +72,18 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+}
+
+.hero > img {
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    border: 3px solid #78d7fa;
+    border-radius: 50%;
+    
+}
+
+.hero > h2 {
+    font-size: 30px;
+    font-weight: normal;
 }
