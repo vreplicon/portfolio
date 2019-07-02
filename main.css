@@ -26,13 +26,14 @@ nav {
   }
 
 section {
-      height: 100px;
+      
       width: 100%;
       padding: 2%;
   }
 
 main {
     margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 h1 {
@@ -56,6 +57,7 @@ p {
 
 .headline, .contact {
     background-color: gray;
+    height: 100px;
 }
 
 .specalties{
@@ -66,10 +68,22 @@ p {
 .project {
     border: 2px solid black;
     border-radius: 10px;
-    width: 80%;
+    width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.projectText  > p {
+    padding: 10px;
+    text-align: center;
+}
+
+.projectText {
+    margin: auto;
+    padding: 20px;
 }
 
 ul {
@@ -87,7 +101,15 @@ li {
     text-align: right;
 }
 
-@media screen and (min-width: 820px) {
+.futureImg {
+    width: 500px;
+    height: 400px;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 850px) {
     .hamburger {
         display: none;
     }
@@ -95,5 +117,13 @@ li {
     ul {
         display: flex;
 
+    }
+
+    .project {
+        flex-direction: row;
+    }
+
+    .futureImg {
+        margin-left: 10px;
     }
 }
