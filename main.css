@@ -167,7 +167,13 @@ li {
 
 }
 
-li:hover {
+a {
+    color: black;
+    font-size: 25px;
+    text-decoration: none;
+}
+
+a:hover {
     color: #78d7fa;
     cursor: pointer;
 } 
