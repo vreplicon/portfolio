@@ -3,17 +3,17 @@
     text-align: center;
     font-size: 35px;
     margin: 0;
+    font-family: 'Raleway', sans-serif;
   }
 
 nav, footer {
     position: fixed;
     width: 100%;
-    background-color: slategrey;
-    height: 50px;
+    background-color: #8978fa;
+    height: 60px;
 }
 
 nav {
-
     top: 0px;
     left: 0px;
     padding-right: 30px;
@@ -38,6 +38,9 @@ main {
 
 h1 {
     padding-top: 20px;
+    font-size: 50px;
+    font-weight: normal;
+    font-family: 'Indie Flower', cursive; 
 }
 
 p {
@@ -52,7 +55,7 @@ p {
 
 .hero {
     font-size: 50px;
-    height: 200px;   
+    font-family: 'Indie Flower', cursive;  
 }
 
 .headline, .contact {
@@ -61,7 +64,6 @@ p {
 }
 
 .specalties{
-    background-color: darkgray;
     height: 300px;
 }
 
@@ -127,3 +129,43 @@ li {
         margin-left: 10px;
     }
 }
+
+/* .hero > img {
+    margin-top: 30px;
+    height: 200px;
+    width: 200px;
+    border: 3px solid #8978fa;
+    border-radius: 50%;
+    
+}
+
+.hero > h1 {
+    font-size: 60px;
+}
+
+.hero > h2 {
+    font-size: 30px;
+    font-weight: normal;
+}
+
+.page-break {
+    border-top: 4px dashed #8978fa;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    font-size: 25px;
+    display: inline;
+
+}
+
+li:hover {
+    color: #78d7fa;
+} */
