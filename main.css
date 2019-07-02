@@ -16,7 +16,7 @@ nav {
 
     top: 0px;
     left: 0px;
-
+    padding-right: 30px;
 
   }
 
@@ -70,4 +70,25 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+}
+
+ul {
+    display: none;
+    list-style: none;
+    justify-content: flex-end;
+}
+
+.hamburger {
+    text-align: right;
+}
+
+@media screen and (min-width: 820px) {
+    .hamburger {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+
+    }
 }
