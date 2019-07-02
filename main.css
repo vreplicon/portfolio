@@ -78,6 +78,11 @@ ul {
     justify-content: flex-end;
 }
 
+li {
+    padding-left: 20px;
+    font-size: 30px;
+}
+
 .hamburger {
     text-align: right;
 }
