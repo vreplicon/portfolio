@@ -49,7 +49,6 @@ p {
 }
 
 .bio > p {
-    width: 60%;
     padding: 20px;
 }
 
@@ -120,6 +119,8 @@ li {
         display: flex;
 
     }
+
+
 }
 
 @media screen and (min-width: 1010px) {
@@ -129,6 +130,17 @@ li {
 
     .futureImg {
         margin-left: 10px;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .right {
+        flex-direction: column;
     }
 }
 
@@ -189,8 +201,14 @@ a:hover {
     margin-top: 5px;
 }
 
-.bio > p {
+/* .first {
+    margin-top: 70px;
+} */
+
+.container > p {
     line-height: 1.5;
+    padding: 0 20px;
+
 }
 
 .specalties > img {
@@ -205,3 +223,42 @@ a:hover {
     margin-top: 5px;
     height: 50px;
 }
+
+.container > img {
+
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 20px;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+
+}
+
+.bio {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.right {
+    flex-direction: row-reverse;
+}
+
+/* .left {
+    float: left;
+    clear: right;
+    margin-right: 50px;
+}
+
+.right {
+    float: right;
+    clear: left;
+    margin-left: 50px;
+} */
