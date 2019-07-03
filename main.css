@@ -33,7 +33,7 @@ section {
 
 main {
     margin-top: 60px;
-    margin-bottom: 60px;
+    margin-bottom: 80px;
 }
 
 h1 {
@@ -74,6 +74,7 @@ p {
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+    margin-bottom: 40px;
     display: flex;
     flex-direction: column;
 }
@@ -119,7 +120,9 @@ li {
         display: flex;
 
     }
+}
 
+@media screen and (min-width: 1010px) {
     .project {
         flex-direction: row;
     }
@@ -188,4 +191,12 @@ nav > img {
 
 .bio > p {
     line-height: 1.5;
+}
+
+.specalties > img {
+    height: 100px;
+}
+
+.specalties > h1 {
+    margin-bottom: 30px;
 }
