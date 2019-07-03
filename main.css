@@ -23,7 +23,10 @@ nav {
   footer {
     bottom: 0px;
     left: 0px;
-  }
+    padding: 0 10%;
+    display: flex;
+    justify-content: space-around;
+}
 
 section {
       
@@ -57,10 +60,6 @@ p {
     font-family: 'Indie Flower', cursive;  
 }
 
-.headline, .contact {
-    background-color: gray;
-    height: 100px;
-}
 
 .specalties{
     height: 300px;
@@ -103,6 +102,10 @@ li {
     text-align: right;
 }
 
+.hamburger:hover {
+    cursor: pointer;
+}
+
 .futureImg {
     width: 500px;
     border: 2px solid black;
@@ -110,39 +113,13 @@ li {
     margin-right: auto;
 }
 
-@media screen and (min-width: 850px) {
-    .hamburger {
-        display: none;
-    }
-
-    ul {
-        display: flex;
-
-    }
-
-
-}
-
-@media screen and (min-width: 1010px) {
-    .project {
-        flex-direction: row;
-    }
-
-    .futureImg {
-        margin-left: 10px;
-    }
+.js-miniMenu {
+    display: flex;
+    flex-direction: column;
+    background-color: #8978fa;
 }
 
 
-@media screen and (max-width: 850px) {
-    .container {
-        flex-direction: column;
-    }
-
-    .right {
-        flex-direction: column;
-    }
-}
 
 .hero > img {
     margin-top: 30px;
@@ -201,10 +178,6 @@ a:hover {
     margin-top: 5px;
 }
 
-/* .first {
-    margin-top: 70px;
-} */
-
 .container > p {
     line-height: 1.5;
     padding: 0 20px;
@@ -225,12 +198,9 @@ a:hover {
 }
 
 .container > img {
-
     height: 300px;
-    border: 2px solid black;
+    border: 3px solid #8978fa;
     border-radius: 20px;
-
-
 }
 
 .container {
@@ -251,14 +221,40 @@ a:hover {
     flex-direction: row-reverse;
 }
 
-/* .left {
-    float: left;
-    clear: right;
-    margin-right: 50px;
+
+@media screen and (min-width: 1010px) {
+    .project {
+        flex-direction: row;
+    }
+
+    .futureImg {
+        margin-left: 10px;
+    }
 }
 
-.right {
-    float: right;
-    clear: left;
-    margin-left: 50px;
-} */
+
+@media screen and (max-width: 850px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .container > p {
+        padding: 20px 0;
+    }
+
+    .right {
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 850px) {
+    .hamburger {
+        display: none;
+    }
+
+    ul {
+        display: flex;
+
+    }
+
+
+}
