@@ -4,12 +4,14 @@
     font-size: 35px;
     margin: 0;
     font-family: 'Raleway', sans-serif;
+    --bg-color: #8978fa;
+    --nav-height: 10%;
   }
 
 nav, footer {
     position: fixed;
     width: 100%;
-    background-color: #8978fa;
+    background-color: var(--bg-color);
     height: 60px;
 }
 
@@ -106,7 +108,7 @@ li {
     cursor: pointer;
 }
 
-.futureImg {
+.projectImg {
     width: 500px;
     border: 2px solid black;
     margin-left: auto;
@@ -116,7 +118,10 @@ li {
 .js-miniMenu {
     display: flex;
     flex-direction: column;
-    background-color: #8978fa;
+    background-color: var(--bg-color);
+    width: 150px;
+    position: fixed;
+    right: 0;
 }
 
 
@@ -125,7 +130,7 @@ li {
     margin-top: 30px;
     height: 200px;
     width: 200px;
-    border: 3px solid #8978fa;
+    border: 3px solid var(--bg-color);
     border-radius: 50%;
     
 }
@@ -140,7 +145,7 @@ li {
 }
 
 .page-break {
-    border-top: 4px dashed #8978fa;
+    border-top: 4px dashed var(--bg-color);
     width: 50%;
     margin-left: auto;
     margin-right: auto;
@@ -199,7 +204,7 @@ a:hover {
 
 .container > img {
     height: 300px;
-    border: 3px solid #8978fa;
+    border: 3px solid var(--bg-color);
     border-radius: 20px;
 }
 
