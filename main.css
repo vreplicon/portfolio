@@ -22,7 +22,7 @@ nav {
 
   }
 
-  footer {
+footer {
     bottom: 0px;
     left: 0px;
     padding: 0 10%;
@@ -109,7 +109,7 @@ li {
 }
 
 .projectImg {
-    width: 500px;
+    width: 80%;
     border: 2px solid black;
     margin-left: auto;
     margin-right: auto;
@@ -230,6 +230,10 @@ a:hover {
 @media screen and (min-width: 1010px) {
     .project {
         flex-direction: row;
+    }
+
+    .projectImg {
+        width: 50%;
     }
 
     .futureImg {
