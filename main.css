@@ -65,6 +65,7 @@ p {
 
 .specalties{
     height: 300px;
+    margin-bottom: 40vh;
 }
 
 .project {
@@ -263,6 +264,14 @@ a:hover {
     ul {
         display: flex;
 
+    }
+
+
+}
+
+@media screen and (min-width: 330px) {
+    .specalties {
+        margin-bottom: 20vh;
     }
 
 
